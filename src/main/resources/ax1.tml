@@ -1,0 +1,12 @@
+(% set guid = "190323" %)
+guid: (@ guid @)
+model:
+  name: abcdcd
+  columns:
+  - name: hello
+    type: world
+(% if_connection_config 1 == 1 %)
+name: chaitanya
+(% else %)
+name: bhatia
+(% endif_connection_config %)

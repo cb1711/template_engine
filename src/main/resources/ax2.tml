@@ -1,0 +1,9 @@
+(% extends "ax1.tml" %)
+(% block extended_columns %)
+- name: col1
+  type: (@ columntype @)
+  col: abcd
+- name: col2
+  type: sdasdd
+  col: abcds
+(% endblock %)
